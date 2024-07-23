@@ -49,16 +49,16 @@ public class ArrayListServices {
 		Boolean identical = true;
 		ArrayList<Integer> array1 = new ArrayList<Integer>();
 		ArrayList<Integer> array2 = new ArrayList<Integer>();
-		System.out.println("Enter the size of first array: ");
+		System.out.println("Enter the size of the first array: ");
 		arrSize = inputVal.nextInt();
-		System.out.println("Enter first Array: ");
+		System.out.println("Enter the first Array: ");
 		for(int i=0; i<arrSize; i++) {
 			int elem = inputVal.nextInt();
 			array1.add(elem);
 		}
-		System.out.println("Enter the size of second array: ");
+		System.out.println("Enter the size of the second array: ");
 		arrSize = inputVal.nextInt();
-		System.out.println("Enter second Array: ");
+		System.out.println("Enter the second Array: ");
 		for(int i=0; i<arrSize; i++) {
 			int elem = inputVal.nextInt();
 			array2.add(elem);
