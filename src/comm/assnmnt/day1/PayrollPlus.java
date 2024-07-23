@@ -19,12 +19,12 @@ public class PayrollPlus {
 	}
 	public static void quad1() {
 		int a, b, c;
-		double sol;
+		double solution;
 		System.out.println("This prog would determine the roots of the given quadratic equation: 3*X^2 - 8*X + 4");
 		a = 3;
 		b = 8;
 		c = 4;
-		sol = Math.sqrt(b*b - 4*a*c);
-		System.out.println("Solution is:"+sol+"Explanation: 3*"+sol+"^2-8*"+sol+"+4");
+		solution = Math.sqrt(b*b - 4*a*c);
+		System.out.println("Solution is:"+solution+"Explanation: 3*"+sol+"^2-8*"+sol+"+4");
 	}
 }
