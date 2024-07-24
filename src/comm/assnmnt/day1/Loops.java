@@ -10,12 +10,12 @@ public class Loops {
 		}
 	
 	public static void sum() {
-		int num, sum=0, count=4;
+		int nums, sum=0, count=4;
 		Scanner inputVal = new Scanner(System.in);
 		while(counter > 0) {
 			System.out.println("Enter an integer");
-	        number = inputVal.nextInt();
-	        sum = sum+number;
+	        nums = inputVal.nextInt();
+	        sum = sum+nums;
 	        System.out.println("Sum is " + sum);
 	        counter = counter-1;
 		}
