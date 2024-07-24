@@ -9,7 +9,7 @@ public class Employee {
 
 	public static void main(String[] args) {
 		Employees emp = new Employees();
-		emp.setEmployee("ABC", "123 SW", 345, "OR", "97006", "6876876", Designation.Manager, 3.5, "abc@gmail.com", 3000.0,250.0,100.0);
+		emp.setEmployee("ABC", "123 SW", 345, "OR", "97006", "76845", Designation.Manager, 3.5, "abc@gmail.com", 3000.0,250.0,100.0);
 		System.out.println("Name: "+emp.getEmployee().empName);
 		System.out.println("ADDRESS: "+emp.getEmployee().empAddress);
 		System.out.println("Employee No: "+emp.getEmployee().empNo);
@@ -17,7 +17,7 @@ public class Employee {
 		System.out.println(emp.getEmployee().empZipcode);
 		System.out.println(emp.getEmployee().empPhone);
 		System.out.println("Designation: "+emp.getEmployee().empDesignation);
-		System.out.println("Expereince in Years: "+emp.getEmployee().experienceinYears);
+		System.out.println("Experience in Years: "+emp.getEmployee().experienceinYears);
 		System.out.println(emp.getEmployee().emailAddress);
 		System.out.println("Salary: "+emp.getSalary());
 	}
