@@ -13,7 +13,7 @@ public class HashSetServices {
 		hsh1.add("Honda");
 		hsh1.add("Subaru");
 		hsh1.add("Volvo");
-		hsh1.add("Chevorlet");
+		hsh1.add("Chevrolet");
 		int size = hsh1.size();
 		System.out.println("The size of the Hashset is: "+size);
 		System.out.println("HashList: "+hsh1);
