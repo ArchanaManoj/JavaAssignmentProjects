@@ -14,8 +14,8 @@ public class Loops {
 		Scanner inputVal = new Scanner(System.in);
 		while(counter > 0) {
 			System.out.println("Enter an integer");
-	        num = inputVal.nextInt();
-	        sum = sum+num;
+	        number = inputVal.nextInt();
+	        sum = sum+number;
 	        System.out.println("Sum is " + sum);
 	        counter = counter-1;
 		}
