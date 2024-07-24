@@ -5,21 +5,21 @@ import java.util.*;
 public class TreeSetServices {
 
 	public static void main(String[] args) {
-		TreeSet<Product> ts1 = new TreeSet<Product>();
+		TreeSet<Product> treeset1 = new TreeSet<Product>();
 		Product p1 = new Product();
 		Product p2 = new Product();
 		Product p3 = new Product();
 		Product p4 = new Product();
 		p1.setProduct("Rice", 3.5, 65.5);
-		ts1.add(p1);
+		treeset1.add(p1);
 		p2.setProduct("Sugar", 5, 95.78);
-		ts1.add(p2);
+		treeset1.add(p2);
 		p3.setProduct("Pulses", 2.5, 80.0);
-		ts1.add(p3);
+		treeset1.add(p3);
 		p4.setProduct("Potatoes", 5.0, 12.56);
-		ts1.add(p4);
-		System.out.println(ts1);
-		for (Product p : ts1) { 
+		treeset1.add(p4);
+		System.out.println(treeset1);
+		for (Product p : treeset1) { 
 			System.out.println(p.getProduct().name+", "+p.getProduct().price+"Rupees, "+p.getProduct().quantity+"kg"); 
 			}
 	}
