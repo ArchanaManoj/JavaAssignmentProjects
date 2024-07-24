@@ -13,13 +13,13 @@ public class Assnmnt {
 	    
 	    int s2 = 365;
 	    s2 = 35000;
-	    System.out.println("An int: " +  s2);
+	    System.out.println("An integer: " +  s2);
 	    s2 = 65398;
-	    System.out.println("An int: " +  s2);
+	    System.out.println("An integer: " +  s2);
 	    s2 = 1212673984;
-	    System.out.println("An int: " +  s2);
+	    System.out.println("An integer: " +  s2);
 	    s2 = 1212673984;
-	    System.out.println("An int: " +  s2);
+	    System.out.println("An integer: " +  s2);
 //	    long s3 = 12345678901234567890123L;
 	    long s3 = 1234567890123456789L;
 	    System.out.println("A short: " +  s3);
