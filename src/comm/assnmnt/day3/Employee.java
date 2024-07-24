@@ -1,6 +1,6 @@
 package comm.assnmnt.day3;
 //Create a class Employee.java with attributes empNo, empName, address, State,
-//zipCode, phone, designation (manager, lead, analyst) , experienceinYears,
+//zipCode, phone, designation (manager, Lead, analyst) , experienceinYears,
 //emailAddress, basic, hra, bonus (% of basic). Choose appropriate data types and
 //create a constructer, getters &amp; setters for the attributes. Also create a method to
 //return the total salary (basic + hra + (bonus/100)*basic)
@@ -77,5 +77,5 @@ class Employees{
 
 }
 enum Designation{
-	Manager, lead, Analyst
+	Manager, Lead, Analyst
 }
